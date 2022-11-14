@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import {address,balance} from './Wallet';
 import Wallet from './Wallet'
 import Link from 'next/link';
-const pages = [{name:'Organizations',link:'\ '}, {name:'Organizations',link:"\createProject "}, {name:'Organizations',link:"\dashboard "}];
+const pages = [{name:'Organizations',link:'\ '}, {name:'Create Organization',link:"\createProject "}, {name:'DashBoard',link:"\dashboard "}];
 const ResponsiveAppBar = () => {
     console.log(address+balance);
 
